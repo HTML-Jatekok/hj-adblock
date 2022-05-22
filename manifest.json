@@ -1,0 +1,20 @@
+{
+  "name": "HJ Adblock",
+  "manifest_version": 3,
+  "version": "1.0",
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "gamemonetize",
+      "enabled": true,
+      "path": "gm_rules.json"
+    }]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "*://*.gamemonetize.com/*",
+    "*://*.gamemonetize.co/*"
+  ]
+}
