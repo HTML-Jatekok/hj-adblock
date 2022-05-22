@@ -9,6 +9,10 @@
       "path": "gm_rules.json"
     }]
   },
+  "action": {
+    "default_title": "HJ Adblock",
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback"
