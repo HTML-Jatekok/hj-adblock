@@ -2,6 +2,7 @@
   "name": "HJ Adblock",
   "manifest_version": 3,
   "version": "1.0",
+  "description": "HJ Adblock",
   "declarative_net_request" : {
     "rule_resources" : [{
       "id": "gamemonetize",
