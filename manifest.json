@@ -1,7 +1,7 @@
 {
   "name": "HJ Adblock",
   "manifest_version": 3,
-  "version": "1.0",
+  "version": "0.1",
   "description": "HJ Adblock",
   "declarative_net_request" : {
     "rule_resources" : [{
@@ -19,7 +19,5 @@
     "declarativeNetRequestFeedback"
   ],
   "host_permissions": [
-    "*://*.gamemonetize.com/*",
-    "*://*.gamemonetize.co/*"
   ]
 }
