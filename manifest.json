@@ -27,6 +27,13 @@
     }]
   },
   "description": "HJ Adblock",
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "180": "180.png",
+    "192": "192.png",
+    "512": "512.png"
+  },
   "incognito": "spanning",
   "homepage_url": "https://htmljatekok.xyz/?ref=hjadblock",
   "permissions": [
