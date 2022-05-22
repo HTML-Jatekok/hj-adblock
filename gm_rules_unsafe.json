@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://api.gamemonetize.com/sdk.js*", "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"] }
+  }, 
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://api.gamemonetize.com/sdk_mobile.js*", "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"] }
+  }
+]
