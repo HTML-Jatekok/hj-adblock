@@ -19,6 +19,11 @@
       "id": "gamedistribution",
       "enabled": true,
       "path": "gd_rules.json"
+    },
+                       {
+      "id": "gamemonetize_unsafe",
+      "enabled": false,
+      "path": "gm_rules_unsafe.json"
     }]
   },
   "description": "HJ Adblock",
