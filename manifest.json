@@ -7,9 +7,8 @@
     "default_popup": "popup.html"
   },
   "content_security_policy": {
-  "extension_pages": "default-src 'none'",
-  "sandbox": "default-src 'none'"
-  }
+  "extension_pages": "default-src 'sha256-4Pj9WMsnbbCCuOKyJFZ2u0D0fg/yX0SRwgFcOr0bUBc='"
+  },
   "declarative_net_request" : {
     "rule_resources" : [{
       "id": "gamemonetize",
@@ -25,7 +24,6 @@
   "description": "HJ Adblock",
   "incognito": "spanning",
   "homepage_url": "https://htmljatekok.xyz/?ref=hjadblock",
-  "offline_enabled": "true",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback"
