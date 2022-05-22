@@ -8,6 +8,11 @@
       "id": "gamemonetize",
       "enabled": true,
       "path": "gm_rules.json"
+    },
+                       {
+      "id": "gamedistribution",
+      "enabled": true,
+      "path": "gd_rules.json"
     }]
   },
   "action": {
