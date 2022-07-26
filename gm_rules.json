@@ -10,5 +10,11 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": { "urlFilter": "*://api.gamemonetize.com/ga.js*", "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"] }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://api.gamemonetize.com/sdk_preload.js*", "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"] }
   }
 ]
