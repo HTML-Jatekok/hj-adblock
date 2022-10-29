@@ -22,7 +22,7 @@
     },
                        {
       "id": "gamemonetize_unsafe",
-      "enabled": false,
+      "enabled": true,
       "path": "gm_rules_unsafe.json"
     }]
   },
